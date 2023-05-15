@@ -1,2 +1,76 @@
-body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}.App{align-items:center;background-color:#f0f0f0;display:flex;font-family:Arial,sans-serif;height:100vh;justify-content:center;overflow:hidden}.editor-wrapper,.preview-wrapper{background-color:#fff;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,.3);margin:10px;padding:10px;width:45%}label{font-weight:700}textarea{border:none;height:80vh;outline:none;resize:none;width:100%}#preview{background-color:#fff;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,.3);height:80vh;overflow:auto;padding:10px}::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background-color:#f5f5f5}::-webkit-scrollbar-thumb{background-color:#aaa;border-radius:5px}
+:root {
+  --primary-color: #7a2c81;
+  --secondary-color: #c77dff;
+  --accent-color: #ff4d6d;
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --editor-bg-color: #fff;
+  --preview-bg-color: #f7e6ff;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+
+.App {
+  align-items: center;
+  background-color: var(--bg-color);
+  display: flex;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.editor-wrapper,
+.preview-wrapper {
+  background-color: var(--editor-bg-color);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 10px;
+  width: 45%;
+}
+
+label {
+  font-weight: 700;
+}
+
+textarea {
+  border: none;
+  height: 80vh;
+  outline: none;
+  resize: none;
+  width: 100%;
+}
+
+#preview {
+  background-color: var(--preview-bg-color);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  height: 80vh;
+  overflow: auto;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
 /*# sourceMappingURL=main.b1b6ac58.css.map*/
