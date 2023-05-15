@@ -44,7 +44,7 @@ And here. | Okay. | I think we get it.
 1. Use just 1s if you want!
 1. And last but not least, let's not forget embedded images:
 
-![React Logo w/ Text](https://goo.gl/Umyytc)`);
+![React Logo w/ Text](https://goo.gl/Umyytc) asdasdasd`);
 
   const handleMarkdownChange = (e) => {
     setMarkdown(e.target.value);
